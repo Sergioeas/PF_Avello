@@ -1,5 +1,5 @@
 # Proyecto_Coder
-Para una corrección mas sencilla y agil, detallo a continucacion en que paginas se podran encontrar los items solicitados en la rubrica de las diapositivas:
+Para una correccion mas sencilla y agil, detallo a continuacion en que paginas se podran encontrar los items solicitados en la rubrica de las diapositivas:
 
 Maquetado Mobile First: -Index
                         -Destinos
