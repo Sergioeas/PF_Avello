@@ -1,0 +1,286 @@
+/* *********_reset.scss************ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ********_font.scss************ */
+
+* {
+  font-family: "roboto";
+}
+
+h1, h2 {
+  font-family: "montserrat";
+}
+
+/* *********_typography.scss ********** */
+
+.index-header {
+  color: white;
+}
+
+.h2-index {
+  color: white;
+}
+
+.p-index {
+  color: white;
+}
+
+footer {
+  color: white;
+}
+
+.h2-agente {
+  color: white;
+}
+
+.div-galeria {
+  color: white;
+}
+
+.h2-contacto {
+  color: white;
+}
+
+.p-contacto {
+  color: white;
+}
+
+/* **************_layout.scss************ */
+
+.main-index {
+  background-image: url(../images/torres1.jpg);
+  background-size: cover;
+  padding: 30px 30px 30px 30px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .main-index {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+.sanPedro {
+  height: 400px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 5px;
+  border-style: 2px solid blue;
+}
+
+.div-index {
+  width: auto;
+  margin: 10px;
+}
+
+.h2-index {
+  color: white;
+  width: 100%;
+  background-color: rgba(100, 100, 100, 0.7);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.p-index {
+  color: white;
+  min-height: 300px;
+  max-height: 300px;
+  width: 100%;
+  background-color: rgba(100, 100, 100, 0.7);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+/* DESTINOS */
+.imgvalle {
+  width: 100%;
+  height: 500px;
+  padding: 10px 20px 10px 20px;
+}
+
+.imgvina {
+  width: 100%;
+  height: 500px;
+  padding: 10px 20px 10px 20px;
+}
+
+.imgsur {
+  width: 100%;
+  height: 500px;
+  padding: 10px 20px 10px 20px;
+}
+
+@media (min-width: 900px) {
+  .imgsur {
+    max-height: 800px;
+    height: auto;
+  }
+}
+.imgantartica {
+  width: 100%;
+  height: 500px;
+  padding: 10px 20px 10px 20px;
+}
+
+@media (min-width: 900px) {
+  .imgantartica {
+    max-height: 800px;
+    height: auto;
+  }
+}
+/* ************ CSS de AGENTE DE VIAJES *********** */
+.main-agente {
+  background-image: url(../images/torres1.jpg);
+  background-size: cover;
+  padding: 30px 30px 30px 30px;
+  width: auto;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center */
+}
+
+.operadora {
+  height: 400px;
+  width: auto;
+  border-radius: 5px;
+  border-style: 2px solid blue;
+}
+
+.div-agente {
+  width: auto;
+  margin: 10px;
+}
+
+.h2-agente {
+  color: white;
+  width: auto;
+  background-color: rgba(100, 100, 100, 0.7);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+/* ************ CSS de GALERIA *********** */
+.article-galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 250px 250px 250px 250px 250px;
+  justify-content: space-evenly;
+}
+
+.div-galeria {
+  color: white;
+  padding-left: 20px;
+  padding-top: 80px;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+@media (min-width: 1024px) {
+  .article-galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .article-galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
+    justify-content: space-evenly;
+  }
+}
+/* ********* CSS de CONTACTO ************* */
+.h2-contacto {
+  margin: 0 auto;
+  color: white;
+  width: 400px;
+  background-color: rgba(100, 100, 100, 0.7);
+  padding: 3px 0px 10px 100px;
+  border-radius: 5px;
+}
+
+.p-contacto {
+  margin: 0 auto;
+  color: white;
+  height: 300px;
+  width: 400px;
+  background-color: rgba(100, 100, 100, 0.7);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+/* ************ _header .scss*************/
+
+.index-header {
+  color: white;
+  background-color: #124586;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .index-header {
+    color: white;
+    background-color: #124586;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.h1-index {
+  padding-left: 15px;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+  padding-left: 15px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: green;
+}
+
+/* ********** _footer.scss************ */
+
+footer {
+  background-color: #124586;
+  color: white;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
