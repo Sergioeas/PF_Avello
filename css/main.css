@@ -1,12 +1,9 @@
-/* *********_reset.scss************ */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "roboto";
 }
-
-/* ********_font.scss************ */
 
 * {
   font-family: "roboto";
@@ -15,8 +12,6 @@
 h1, h2 {
   font-family: "montserrat";
 }
-
-/* *********_typography.scss ********** */
 
 .index-header {
   color: white;
@@ -49,8 +44,6 @@ footer {
 .p-contacto {
   color: white;
 }
-
-/* **************_layout.scss************ */
 
 .main-index {
   background-image: url(../images/torres1.jpg);
@@ -178,13 +171,15 @@ footer {
 
 .div-galeria {
   color: white;
-  padding-left: 20px;
-  padding-top: 80px;
+  /* padding-left: 20px;
+  padding-top: 80px; */
   margin: 10px;
   height: 200px;
   width: 200px;
   background-color: grey;
   border-radius: 5px;
+  justify-content: end;
+  align-content: center;
 }
 
 @media (min-width: 1024px) {
@@ -203,6 +198,14 @@ footer {
     justify-content: space-evenly;
   }
 }
+.sanpedro_galeria {
+  /* justify-self: center;
+  align-self: center; */
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
 /* ********* CSS de CONTACTO ************* */
 .h2-contacto {
   margin: 0 auto;
@@ -222,8 +225,6 @@ footer {
   padding: 3px;
   border-radius: 5px;
 }
-
-/* ************ _header .scss*************/
 
 .index-header {
   color: white;
@@ -274,8 +275,6 @@ a:hover {
 a:active {
   color: green;
 }
-
-/* ********** _footer.scss************ */
 
 footer {
   background-color: #124586;

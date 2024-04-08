@@ -132,13 +132,16 @@
 
 .div-galeria {
     color: white;
-    padding-left: 20px;
-    padding-top: 80px;
+    /* padding-left: 20px;
+    padding-top: 80px; */
     margin: 10px;
     height: 200px;
     width: 200px;
     background-color: grey;
     border-radius: 5px;
+    justify-content: end;
+    align-content: center;
+    
 }
 
 @media (min-width: 1024px) {
@@ -157,6 +160,14 @@
         grid-template-rows: 250px 250px 250px;
         justify-content: space-evenly;
     }
+}
+
+.sanpedro_galeria {
+    /* justify-self: center;
+    align-self: center; */
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
 }
 
 /* ********* CSS de CONTACTO ************* */
