@@ -136,9 +136,6 @@ footer {
   background-size: cover;
   padding: 30px 30px 30px 30px;
   width: auto;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center */
 }
 
 .operadora {
@@ -171,8 +168,6 @@ footer {
 
 .div-galeria {
   color: white;
-  /* padding-left: 20px;
-  padding-top: 80px; */
   margin: 10px;
   height: 200px;
   width: 200px;
@@ -206,6 +201,7 @@ footer {
 
 /* ********* CSS de CONTACTO ************* */
 .main-contacto {
+  background-image: url(../images/fondo2.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
