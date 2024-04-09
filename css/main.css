@@ -198,15 +198,33 @@ footer {
     justify-content: space-evenly;
   }
 }
-.sanpedro_galeria {
-  /* justify-self: center;
-  align-self: center; */
+.img-galeria {
   width: 200px;
   height: 200px;
   border-radius: 5px;
 }
 
 /* ********* CSS de CONTACTO ************* */
+.main-contacto {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 30px 30px 30px;
+  width: auto;
+  height: 100vh;
+}
+
+@media (min-width: 600px) {
+  .main-contacto {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .h2-contacto {
   margin: 0 auto;
   color: white;
@@ -216,14 +234,39 @@ footer {
   border-radius: 5px;
 }
 
-.p-contacto {
-  margin: 0 auto;
+@media (min-width: 600px) {
+  .h2-contacto {
+    margin: 0 auto;
+    color: white;
+    width: 600px;
+    background-color: rgba(100, 100, 100, 0.7);
+    padding: 3px 0px 10px 200px;
+    border-radius: 5px;
+  }
+}
+.div-contacto {
   color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   height: 300px;
   width: 400px;
   background-color: rgba(100, 100, 100, 0.7);
-  padding: 3px;
   border-radius: 5px;
+}
+
+@media (min-width: 600px) {
+  .div-contacto {
+    margin: 0 auto;
+    color: white;
+    width: 600px;
+    background-color: rgba(100, 100, 100, 0.7);
+    padding: 3px 0px 10px 100px;
+    border-radius: 5px;
+  }
+}
+.p-contacto {
+  padding-top: 10px;
 }
 
 .index-header {
