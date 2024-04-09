@@ -96,9 +96,6 @@
     background-size: cover;
     padding: 30px 30px 30px 30px;
     width: auto;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center */
 }
 
 .operadora {
@@ -132,13 +129,14 @@
 
 .div-galeria {
     color: white;
-    padding-left: 20px;
-    padding-top: 80px;
     margin: 10px;
     height: 200px;
     width: 200px;
     background-color: grey;
     border-radius: 5px;
+    justify-content: end;
+    align-content: center;
+    
 }
 
 @media (min-width: 1024px) {
@@ -159,7 +157,36 @@
     }
 }
 
+.img-galeria {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
 /* ********* CSS de CONTACTO ************* */
+
+
+.main-contacto {
+    background-image: url(../../images/chilenos.jpg);
+    background-size: cover;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    padding: 30px 30px 30px 30px;
+    width: auto;
+    height: 100vh;
+}
+
+@media (min-width: 600px) {
+    .main-contacto {
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    }
+}
 
 .h2-contacto {
     margin: 0 auto;
@@ -170,12 +197,40 @@
     border-radius: 5px;  
 }
 
-.p-contacto {
+@media (min-width: 600px) {
+    .h2-contacto {
     margin: 0 auto;
     color: white;
+    width: 600px;
+    background-color: rgba(100, 100, 100, 0.7);
+    padding: 3px 0px 10px 200px;
+    border-radius: 5px; 
+    }
+}
+
+.div-contacto {
+    
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     height: 300px;
     width: 400px;
     background-color: rgba(100, 100, 100, 0.7);
-    padding: 3px;
     border-radius: 5px;
+}
+
+@media (min-width: 600px) {
+    .div-contacto {
+    margin: 0 auto;
+    color: white;
+    width: 600px;
+    background-color: rgba(100, 100, 100, 0.7);
+    padding: 3px 0px 10px 100px;
+    border-radius: 5px; 
+    }
+}
+
+.p-contacto {
+    padding-top: 10px;
 }
