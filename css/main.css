@@ -209,7 +209,7 @@ footer {
 
 /* ********* CSS de CONTACTO ************* */
 .main-contacto {
-  background-image: url(../../images/chilenos.jpg);
+  background-image: url(../images/fondo2.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
