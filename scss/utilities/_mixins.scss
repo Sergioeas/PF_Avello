@@ -1,0 +1,27 @@
+@mixin flex-column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+@mixin responsiveMixin {
+    @media (min-width: 600px) {
+
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+}
+
+.main-index {
+    @include flex-column-center;
+}
+
+.main-index {
+    @include responsiveMixin;
+}
+
+
+.main-contacto {
+    @include flex-column-center;
+}

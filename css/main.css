@@ -47,21 +47,11 @@ footer {
 
 .main-index {
   background-image: url(../images/torres1.jpg);
-  background-size: cover;
   padding: 30px 30px 30px 30px;
+  background-size: cover;
   width: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
-@media (min-width: 600px) {
-  .main-index {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-  }
-}
 .sanPedro {
   height: 400px;
   width: 100%;
@@ -211,10 +201,7 @@ footer {
 .main-contacto {
   background-image: url(../images/fondo2.jpg);
   background-size: cover;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
   padding: 30px 30px 30px 30px;
   width: auto;
   height: 100vh;
@@ -231,20 +218,20 @@ footer {
 }
 .h2-contacto {
   margin: 0 auto;
+  text-align: center;
   color: white;
-  width: 400px;
+  max-width: 400px;
   background-color: rgba(100, 100, 100, 0.7);
-  padding: 3px 0px 10px 100px;
   border-radius: 5px;
 }
 
 @media (min-width: 600px) {
   .h2-contacto {
     margin: 0 auto;
+    text-align: center;
     color: white;
     width: 600px;
     background-color: rgba(100, 100, 100, 0.7);
-    padding: 3px 0px 10px 200px;
     border-radius: 5px;
   }
 }
@@ -265,12 +252,22 @@ footer {
     color: white;
     width: 600px;
     background-color: rgba(100, 100, 100, 0.7);
-    padding: 3px 0px 10px 100px;
+    padding: 3px 0px 10px 10px;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 300px) {
+  .div-contacto {
+    margin: 0 auto;
+    color: white;
+    width: 100%;
+    background-color: rgba(100, 100, 100, 0.7);
     border-radius: 5px;
   }
 }
 .p-contacto {
   padding-top: 10px;
+  width: auto;
 }
 
 .index-header {
@@ -327,6 +324,26 @@ footer {
   background-color: #124586;
   color: white;
   padding: 15px;
+}
+
+.main-index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .main-index {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */
