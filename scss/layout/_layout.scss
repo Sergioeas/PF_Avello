@@ -116,6 +116,13 @@
 
 /* ************ CSS de GALERIA *********** */
 
+.container-galeria {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .article-galeria {
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -132,7 +139,6 @@
     border-radius: 5px;
     justify-content: end;
     align-content: center;
-    
 }
 
 @media (min-width: 1024px) {
@@ -140,6 +146,7 @@
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 250px 250px;
+        gap: 25px;
         justify-content: space-evenly;
     }
 }
