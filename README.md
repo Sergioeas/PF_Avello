@@ -12,4 +12,4 @@ Temáticas (Dónde encontrarlas):
 -En Contacto (.div-contacto)
 5.-FLEX:
 -En galería (.container-galeria)
--En contacto (.main-contacto)
+-En contacto (.main-contacto) 
